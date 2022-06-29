@@ -153,6 +153,7 @@ Brand.belongsToMany(Type, { through: TypeBrand });
 module.exports = {
   User,
   Brand,
+  Basket,
   BasketDevice,
   Device,
   DeviceInfo,
